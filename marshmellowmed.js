@@ -8,8 +8,8 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"marshmellowmed_atlas_1", frames: [[0,0,1266,752],[1268,0,500,500],[1268,502,500,500],[1506,1506,500,493],[0,1004,500,500],[0,1506,500,500],[502,754,500,500],[502,1256,500,500],[1004,1004,500,500],[1004,1506,500,500],[1506,1004,500,500]]},
-		{name:"marshmellowmed_atlas_2", frames: [[502,978,339,155],[1004,1192,311,164],[1388,696,70,70],[1890,1054,70,70],[1962,1054,70,70],[888,1691,219,245],[1109,1691,219,245],[1482,1665,531,104],[2008,34,24,23],[1388,476,111,111],[0,1459,549,176],[551,1135,44,42],[1460,696,44,59],[597,1135,44,42],[1971,1126,44,59],[643,1135,44,42],[1890,1126,79,59],[689,1135,44,42],[1890,1187,79,59],[735,1135,44,42],[1890,1248,79,59],[781,1135,44,42],[1890,1309,79,59],[827,1135,44,41],[1971,1187,44,59],[1388,589,105,105],[1890,811,153,97],[2008,59,24,23],[551,1459,388,200],[502,1661,384,188],[1388,768,73,39],[1890,993,158,59],[1890,910,152,81],[2008,84,29,7],[2008,93,18,8],[1004,1429,476,260],[1482,1429,486,234],[1388,1162,500,265],[2008,0,32,32],[502,1135,47,47],[886,476,500,365],[1506,0,500,405],[502,0,500,474],[0,849,500,307],[0,1637,500,148],[1506,407,500,402],[1388,811,500,349],[502,476,382,500],[502,1192,500,265],[1004,0,500,474],[0,487,500,360],[0,0,500,485],[0,1158,500,275],[886,843,500,347]]}
+		{name:"marshmellowmed_atlas_1", frames: [[502,978,339,155],[1004,1192,311,164],[1971,1054,70,70],[1971,1126,70,70],[1971,1198,70,70],[888,1691,219,245],[1109,1691,219,245],[1482,1665,531,104],[2008,34,24,23],[1388,476,111,111],[0,1459,549,176],[551,1135,44,47],[1317,1192,44,68],[597,1135,44,47],[1317,1262,44,68],[643,1135,44,47],[1388,696,79,68],[689,1135,44,47],[1890,1054,79,68],[735,1135,44,47],[1890,1124,79,68],[781,1135,44,47],[1890,1194,79,68],[827,1135,44,41],[1890,1264,44,59],[1388,589,105,105],[1890,811,153,97],[2008,59,24,23],[551,1459,388,200],[502,1661,384,188],[1388,766,73,39],[1890,993,158,59],[1890,910,152,81],[2008,84,29,7],[2008,93,18,8],[1004,1429,476,260],[1482,1429,486,234],[1388,1162,500,265],[2008,0,32,32],[502,1135,47,47],[886,476,500,365],[1506,0,500,405],[502,0,500,474],[0,849,500,307],[0,1637,500,148],[1506,407,500,402],[1388,811,500,349],[502,476,382,500],[502,1192,500,265],[1004,0,500,474],[0,487,500,360],[0,0,500,485],[0,1158,500,275],[886,843,500,347]]},
+		{name:"marshmellowmed_atlas_2", frames: [[0,0,1266,752],[1268,0,500,500],[1268,502,500,500],[1506,1506,500,493],[0,1004,500,500],[0,1506,500,500],[502,754,500,500],[502,1256,500,500],[1004,1004,500,500],[1004,1506,500,500],[1506,1004,500,500]]}
 ];
 
 
@@ -90,56 +90,56 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_39 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_35 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
@@ -158,21 +158,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,5330,3363);
 
 
 (lib.CachedBmp_32 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_30 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
@@ -185,378 +185,378 @@ p.nominalBounds = new cjs.Rectangle(0,0,2513,914);
 
 
 (lib.CachedBmp_28 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_23 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_21 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_20 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_17 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_16 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q0 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q1 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ComboBox = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q2 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CSS = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q0 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q1 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q2 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q3 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q4 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q5 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q6 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q7 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q8 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g1_q9 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q3 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q4 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q5 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q6 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q7 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q8 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q9 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q10 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q11 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q12 = function() {
-	this.initialize(ss["marshmellowmed_atlas_1"]);
+	this.initialize(ss["marshmellowmed_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q13 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.g0_q14 = function() {
-	this.initialize(ss["marshmellowmed_atlas_2"]);
+	this.initialize(ss["marshmellowmed_atlas_1"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -596,17 +596,17 @@ if (reversed == null) { reversed = false; }
 	this.gameInstruction.lineHeight = 26;
 	this.gameInstruction.lineWidth = 412;
 	this.gameInstruction.parent = this;
-	this.gameInstruction.setTransform(0,61.9);
+	this.gameInstruction.setTransform(0,57.95);
 	if(!lib.properties.webfonts['Assistant']) {
 		lib.webFontTxtInst['Assistant'] = lib.webFontTxtInst['Assistant'] || [];
 		lib.webFontTxtInst['Assistant'].push(this.gameInstruction);
 	}
 
-	this.gameInstruction_1 = new cjs.Text("לחצו על השיפוד המתאים בשביל למיין את המרשמלו", "normal 400 18px 'Assistant'", "#342666");
+	this.gameInstruction_1 = new cjs.Text("לחצו על השיפוד המתאים על מנת למיין את המרשמלו לקטגוריה הנכונה", "normal 600 18px 'Assistant'", "#342666");
 	this.gameInstruction_1.name = "gameInstruction_1";
 	this.gameInstruction_1.textAlign = "center";
 	this.gameInstruction_1.lineHeight = 30;
-	this.gameInstruction_1.lineWidth = 412;
+	this.gameInstruction_1.lineWidth = 524;
 	this.gameInstruction_1.parent = this;
 	this.gameInstruction_1.setTransform(0,40.25);
 	if(!lib.properties.webfonts['Assistant']) {
@@ -630,18 +630,18 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().ls(["#DED6EB","#E2DAED","#AC93C5","#FFFFFF","#F9F7FB","#E8E2F0","#CDBEDD","#BCA9D2"],[0,0.22,0.459,0.812,0.839,0.898,0.969,1],-306.7,0,306.8,0).ss(6.6).p("EgmJgJRMBMTAAAQD1AACuCuQCuCuAAD1QAAD2iuCtQiuCvj1AAMhMTAAAQj1AAiuivQiuitAAj2QAAj1CuiuQCuiuD1AAg");
-	this.shape.setTransform(0,42.8065,0.7718,0.7364);
+	this.shape.graphics.f().ls(["#DED6EB","#E2DAED","#AC93C5","#FFFFFF","#F9F7FB","#E8E2F0","#CDBEDD","#BCA9D2"],[0,0.22,0.459,0.812,0.839,0.898,0.969,1],-239.7,0,233.8,0).ss(6.6).p("Egh+gG0MBD9AAAQC9AACGCAQCHCAAAC0QAAC0iHCBQiGCAi9AAMhD9AAAQi9AAiGiAQiHiBAAi0QAAi0CHiAQCGiAC9AAg");
+	this.shape.setTransform(0,42.8);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("EgmJAJSQj1gBiuitQiuiuAAj2QAAj1CuiuQCuiuD1AAMBMTAAAQD1AACuCuQCuCuAAD1QAAD2iuCuQiuCtj1ABg");
-	this.shape_1.setTransform(0,42.8065,0.7718,0.7364);
+	this.shape_1.graphics.f("#FFFFFF").s().p("Egh+AG1Qi9AAiGiAQiHiBAAi0QAAi0CHiAQCGiAC9AAMBD8AAAQC+AACGCAQCGCAAAC0QAAC0iGCBQiGCAi+AAg");
+	this.shape_1.setTransform(0,42.8);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.titleBG, new cjs.Rectangle(-237.5,-13,475,111.6), null);
+}).prototype = getMCSymbolPrototype(lib.titleBG, new cjs.Rectangle(-275.7,-13,551.4,102.8), null);
 
 
 (lib.skewForSmore = function(mode,startPosition,loop,reversed) {
@@ -7181,9 +7181,9 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.skip();
 	this.instance.setTransform(0.5,0);
 
-	this.text = new cjs.Text("דלגו", "23px 'Arial'", "#FCEBEB");
+	this.text = new cjs.Text("דלגו", "bold 23px 'Assistant'", "#FCEBEB");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 28;
+	this.text.lineHeight = 32;
 	this.text.lineWidth = 50;
 	this.text.parent = this;
 	this.text.setTransform(0.5,-15.05);
@@ -7929,7 +7929,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
+	// catagoryText
 	this.catagoryText = new cjs.Text("קטגוריה", "normal 400 25px 'Assistant'", "#7F4011");
 	this.catagoryText.name = "catagoryText";
 	this.catagoryText.textAlign = "center";
@@ -7942,18 +7942,31 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['Assistant'].push(this.catagoryText);
 	}
 
-	this.skewForSmore = new lib.skewForSmore();
-	this.skewForSmore.name = "skewForSmore";
-	this.skewForSmore.setTransform(2.65,-77.5,0.9849,0.9849,0,0,0,2.7,60.1);
+	this.timeline.addTween(cjs.Tween.get(this.catagoryText).wait(1));
 
+	// skewForSmore_copy
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#D68D60").s().p("AgOAYQgGgDAAgDIAAgjIAAgIIApAAIAAAIIAAAjQAAAHgVAAQgIAAgGgBg");
+	this.shape.setTransform(-0.5117,-79.95);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	// singleSmore
 	this.instance = new lib.singleSmore();
 	this.instance.setTransform(-0.15,-40.65,0.9849,0.9849,0,0,0,84.6,41);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.skewForSmore},{t:this.catagoryText}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// skewForSmore
+	this.skewForSmore = new lib.skewForSmore();
+	this.skewForSmore.name = "skewForSmore";
+	this.skewForSmore.setTransform(2.65,-81.75,0.9849,0.9849,0,0,0,2.7,60.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.skewForSmore).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.smoreWithSkew, new cjs.Rectangle(-83.4,-195.9,166.9,195.6), null);
+}).prototype = getMCSymbolPrototype(lib.smoreWithSkew, new cjs.Rectangle(-83.4,-200.2,166.9,199.89999999999998), null);
 
 
 (lib.winMarsh = function(mode,startPosition,loop,reversed) {
@@ -10161,10 +10174,12 @@ if (reversed == null) { reversed = false; }
 		function shade(evt) //מעבר עכבר על הסמורס - הדגשה שלו
 		{
 			evt.currentTarget.shadow = new createjs.Shadow("rgba(236,174,166,1)", 0, 0, 15);
+			evt.currentTarget.skewForSmore.scaleY = 0.9;
 		}
 		function Outshade(evt) //מעבר עכבר החוצה מהסמורס
 		{
 			evt.currentTarget.shadow = null;
+			evt.currentTarget.skewForSmore.scaleY = 1;
 		}
 		
 		function clickOnSmore(evt) //מה קורה כשלוחצים על סמורס של קטגוריה
@@ -10295,7 +10310,7 @@ if (reversed == null) { reversed = false; }
 			if (maxMarsh >= 3) {
 				rightMarsh.scaleY = (110 / maxMarsh) / rightMarsh.nominalBounds.height;
 			}
-			stage.getChildByName("smore" + currentSpike).skewForSmore.addChild(rightMarsh);
+			stage.getChildByName("smore" + currentSpike).skewForSmore.addChildAt(rightMarsh, 1);
 			var totalHeight = rightMarsh.parent.nominalBounds.height - 20;
 			var i = (categoryCountArrayWin[currentSpike] - 1);
 			rightMarsh.y = -(totalHeight / maxMarsh * i) + (totalHeight / (maxMarsh * 2)) + totalHeight / 2 - 20;
@@ -10548,25 +10563,25 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/CachedBmp_34.png?1644169467085", id:"CachedBmp_34"},
-		{src:"images/CachedBmp_33.png?1644169467085", id:"CachedBmp_33"},
-		{src:"images/CachedBmp_29.png?1644169467085", id:"CachedBmp_29"},
-		{src:"images/marshmellowmed_atlas_1.png?1644169466684", id:"marshmellowmed_atlas_1"},
-		{src:"images/marshmellowmed_atlas_2.png?1644169466685", id:"marshmellowmed_atlas_2"},
-		{src:"sounds/badBurnSound.mp3?1644169467085", id:"badBurnSound"},
-		{src:"sounds/goodBurnSound.mp3?1644169467085", id:"goodBurnSound"},
-		{src:"sounds/loseSound.mp3?1644169467085", id:"loseSound"},
-		{src:"sounds/finalSound.mp3?1644169467085", id:"finalSound"},
-		{src:"sounds/fireSound.mp3?1644169467085", id:"fireSound"},
-		{src:"sounds/guitarStartSound.mp3?1644169467085", id:"guitarStartSound"},
-		{src:"sounds/hitSound.mp3?1644169467085", id:"hitSound"},
-		{src:"sounds/guitarSound.mp3?1644169467085", id:"guitarSound"},
-		{src:"sounds/winSound.mp3?1644169467085", id:"winSound"},
-		{src:"sounds/shootSound.mp3?1644169467085", id:"shootSound"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644169467085", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644169467085", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1644169467085", id:"an.ComboBox"},
-		{src:"components/ui/src/css.js?1644169467085", id:"an.CSS"}
+		{src:"images/CachedBmp_34.png", id:"CachedBmp_34"},
+		{src:"images/CachedBmp_33.png", id:"CachedBmp_33"},
+		{src:"images/CachedBmp_29.png", id:"CachedBmp_29"},
+		{src:"images/marshmellowmed_atlas_1.png", id:"marshmellowmed_atlas_1"},
+		{src:"images/marshmellowmed_atlas_2.png", id:"marshmellowmed_atlas_2"},
+		{src:"sounds/badBurnSound.mp3", id:"badBurnSound"},
+		{src:"sounds/goodBurnSound.mp3", id:"goodBurnSound"},
+		{src:"sounds/loseSound.mp3", id:"loseSound"},
+		{src:"sounds/finalSound.mp3", id:"finalSound"},
+		{src:"sounds/fireSound.mp3", id:"fireSound"},
+		{src:"sounds/guitarStartSound.mp3", id:"guitarStartSound"},
+		{src:"sounds/hitSound.mp3", id:"hitSound"},
+		{src:"sounds/guitarSound.mp3", id:"guitarSound"},
+		{src:"sounds/winSound.mp3", id:"winSound"},
+		{src:"sounds/shootSound.mp3", id:"shootSound"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js", id:"an.ComboBox"},
+		{src:"components/ui/src/css.js", id:"an.CSS"}
 	],
 	preloads: []
 };
